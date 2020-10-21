@@ -1,0 +1,16 @@
+nav ul li{
+    display:inline-block ;
+    width: 33%;
+    background-color: olive;
+    color: black;
+    border-right: 2px solid black;
+    font-size: 25px;
+   
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+nav li :last-child{
+    border-right: none;
+}
