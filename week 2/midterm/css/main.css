@@ -1,22 +1,18 @@
 nav ul li{
+    position: relative;
     display:inline-block ;
      width: 33%;
     text-align: center;
-    background-color: teal;
     border-right: 2px solid black;
-    font-size: 28px;
-    
+    font-size: 28px;    
+}
+
+#contact{
+    border-right:none ;
 }
 a:link{
     text-decoration: none;
-   
-   
-   
 }
-nav ul li :last-child{
-    border-right: none;
-}
-
 
 
 .container{
@@ -28,22 +24,37 @@ nav ul li :last-child{
 img{
     float: left;
     width: 400px;
+    margin-right: 20px;
     
-  
-    
-}
-.imagea{
-    width:100%;
-    height: 400px;
 
 }
+.containerr{
+    width:100%;
+    height: 400px;
+    position: relative;
+}
+
+.pic{
+    height: 400px;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rebeccapurple;
+}
+
 p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
 }
 h1{
     font-size: 25px;
-    background-color: teal;
     color: rebeccapurple ;
 }
 h2{
@@ -57,3 +68,30 @@ h2{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+h3{
+    font-size: 25px;
+    color: rebeccapurple;
+}
+
+#name{width: 100%;}
+
+#email{width: 100%;}
+
+#message{height: 100px; width: 100%;}
+
+#send{width: 5%;}
+
+input[type="radio"] {
+    display:inline-block;
+}
+
+label {
+    display:inline-block;
+}
+
+footer{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+

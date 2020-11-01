@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 
 <html>
-   
-<img src="images/squirl.jpg" alt="long squirrel" class="imagea"> 
+<div class="containerr">
+<img src="images/squirl.jpg" alt="long squirrel" class="pic" style="width: 100%;">
+<div class="centered"><h4>The squirrel</h4></div>
+</div> 
 
 <Nav role="navigation" class="navigation">
         <ul>
@@ -12,8 +14,8 @@
             <li>
                 <a href="">Story</a>
             </li>
-            <li>
-                <a href="">Contact</a>
+            <li id="contact">
+                <a href="">Contact</a> 
             </li>
         </ul>    
         </Nav>
@@ -27,6 +29,7 @@
     </header>
 <div class="container">
     <img src="images/squirrel.jpg" alt="Squirrel">
+    <body style="background-color: grey;">
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente deserunt quia ipsam amet inventore ad 
          ipsa esse cumque ipsum incidunt neque dolorem, rem similique doloremque aspernatur dolor obcaecati a.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque voluptate mollitia, molestias assumenda 
@@ -40,7 +43,14 @@
            sequi est quae tempora laborum odit deleniti incidunt, modi a ex soluta quia ut corrupti harum rem? Lorem ipsum dolor sit amet consectetur, 
            adipisicing elit. Laborum vitae nisi eaque commodi possimus, laboriosam distinctio ipsum dignissimos magnam rem facere at? Exercitationem hic 
            debitis aliquam, minus illum ipsa nesciunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat accusantium earum iure ipsam! 
-           Exercitationem in minima laudantium, libero dolore id, cum sint aspernatur animi illo fugiat labore vitae eius provident.</p>
+           Exercitationem in minima laudantium, libero dolore id, cum sint aspernatur animi illo fugiat labore vitae eius provident. Lorem ipsum dolor 
+           sit amet consectetur adipisicing elit. Perspiciatis laudantium soluta necessitatibus modi, nihil harum! Labore facilis laboriosam ducimus ut 
+           numquam, magnam deserunt animi voluptatem facere accusamus praesentium rem vitae? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+           Iure vel, obcaecati vero eligendi animi voluptate unde dolores corporis quis natus necessitatibus suscipit voluptatibus recusandae aliquam
+         cum pariatur eaque ipsa non Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fugiat cumque vel quisquam, dignissimos sequi ipsum 
+         sit corporis? Omnis ut quia quis velit nostrum fugit eligendi voluptates totam at accusantium? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Incidunt veritatis architecto, ullam cupiditate voluptate recusandae distinctio. Quam, aspernatur laudantium explicabo molestias velit adipisci veniam accusamus
+           soluta sequi? Incidunt, nisi quasi!</p> 
 </div>
     <h2>
         Facts about squirrels
@@ -49,5 +59,33 @@
         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
         <li>Exercitationem in minima laudantium, libero dolore id, cum sint aspernatur animi illo fugiat labore vitae eius provident.</li>
         <li>Enim consectetur soluta quasi quos a voluptates recusandae ipsum officiis cumque unde!</li>
+        <li>Reiciendis quaerat fugiat modi.</li>
     </ul>
+    <h3>Contact to learn more</h3>
+
+  
+        <fieldset>
+         <div>
+            <form action="/action_page.php">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Your email</label>
+                <input type="text" id="email" name="email"><br>
+                <label for="message">Your message</label>
+                <input type="text" id="message" name="message"><br>
+                </div>
+               <p>Would you like to visit the squirrel?</p>
+               <div>
+               <input type="radio" name="question" id="yes" value="yes"/>
+               <label for="yes">Yes</label>
+               <input type="radio" name="question" id="no" value="no"/>
+               <label for="no">No</label>
+               <input type="radio" name="question" id="maybe" value="maybe"/>
+               <label for="maybe">Maybe</label>
+               </div>
+                <input type="submit" id="send" value="Send">
+              </form>      
+        </fieldset>
+        <footer>&copy;The Squirrel</footer>
+    </body>
     </html>
