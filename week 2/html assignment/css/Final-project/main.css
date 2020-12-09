@@ -1,0 +1,80 @@
+nav{
+    background-color: black;
+}
+.search{
+  text-align: center;
+}
+input[type=text]{
+    width: 99%;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    background-color: black;
+    color: orange;
+}
+li{
+    padding-bottom: 25px;
+}
+.logo{ 
+    background-color: peru;
+}
+.container1{
+    position: relative;
+}
+.text1{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    width: 1500px;
+}
+.button1{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    padding-top: 25px;
+}
+h1{
+    text-align: start;
+    margin-bottom: 250px;
+    font-size: 160px;
+}
+p{
+    text-align: start;
+    margin-bottom: 200px;
+    font-size: 30px;
+}
+.container2{
+    background-color: blanchedalmond;
+}
+h2{
+    font-size: 60px;
+}
+h3{
+    font-size: 60px;
+}
+h4{
+    font-size: 60px;
+}
+h5{
+    font-size: 60px;
+}
+h6{
+    font-size: 60px;
+}
+h7{
+    font-size: 60px;
+}
+h8{
+    font-size: 60px;
+}
+h9{
+    font-size: 60px;
+}
+.container3{
+
+}
