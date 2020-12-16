@@ -440,12 +440,16 @@ a{
       .name, .name2{
           background-color:#ffe6ac;
       }
-      .hoo{
-          float: left;
-      }
       .map{
           float: right;
+          width: 50%;
+          margin-bottom: 1000px;
       }
+      input[type=text]{
+          width: 50%;
+          margin-top: 30px;
+      }
+
 
     }
 
