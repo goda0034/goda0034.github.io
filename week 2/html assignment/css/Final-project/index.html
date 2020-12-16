@@ -6,10 +6,11 @@
         <link href="main.css" rel="stylesheet">
         <tittle>Three Star Media</tittle>
     </head>
-    <nav>
-        <div class="logo">
-<img src="images\images/logo.png" alt="logo">
-</div> 
+    <nav> 
+        <div class="top">
+<img src="images\images/logo.png" alt="logo" class="logo"> 
+</div>
+<div class="nav">
 <ul>    
 <li>Home</li>
 <li>About Us</li>
@@ -17,17 +18,16 @@
 <li>Team</li>
 <li>Contact</li>
 </ul>
-<div class="search">
-<input type="text" placeholder="Search"> 
-</div>
+<input type="text" placeholder="Search" class="search"> 
     </nav>
+</div>
 <header>
     <div class="container1">
     <img src="images\images/main-banner.jpg" alt="main" class="main">
     <div class="text1">
     <h1>Welcome To Three Star Media</h1>
     <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Numquam odit architecto temporibus dolores veniam voluptatibus Lorem ipsum dolor sit amet consectetur adipisicing elit. Id mollitia, accusamus, vel officiis expedita asperiores reiciendis voluptatibus tempora harum animi sequi tenetur perspiciatis at pariatur quibusdam aperiam, impedit nam quae.</p>
+        Numquam odit architecto temporibus dolores veniam voluptatibus Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 <div class="button1">
 <button type="button" class="block">Connect with us &#x25BA;</button>  
 </div>
@@ -40,11 +40,7 @@
     <h2>About Us</h2>
     <p2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo iure saepe exercitationem veritatis
         doloribus facilis ex ea pariatur impedit quo? Voluptatem, cumque quisquam! Maxime quidem reprehenderit,
-        quaerat tenetur iusto praesentium.
-        <br>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Vero dignissimos commodi facilis libero reiciendis officiis deleniti harum ex velit culpa quibusdam
-        molestias repudiandae nobis et, facere corrupti natus, doloremque perferendis!</p>
+
        </div>
 </body>
 <h3>Our Services</h3>
@@ -99,7 +95,7 @@
 </div>
 <div class="container8">
 <img src="images\images/vision.jpg" alt="vision" class="vision">
-<div class="text2">
+<div class="text1">
     <h9>Our Vision</h9>
     <br>
     <div class="vtext">
@@ -112,24 +108,41 @@
        </div>
        </div>
 <h10>Our Team</h10>
-<div class="grid2x2">
-    <div class="picture"><div><img src="images\images/john.jpg" alt="john" class="john"></div></div>
-    <div class="name"><div><h11>Bob Rite</h11><br><h12>CEO and Co-owner</h12><br><p8>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugit? Placeat saepe dignissimos eveniet laudantium aliquid atque unde
-    consectetur. Nostrum eum repellendus nisi hic facere reprehenderit quia illo ex ullam?</p8></div></div>
-    <div class="picture2"><div><img src="images\images/bob.jpg" alt="bob" class="bob"></div></div>
-    <div class="name2"><div><h13>Bob Rite</h13><br><h14>CFO and Co-owner</h14><br><p9>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam autem rem temporibus doloribus rerum est amet, eum, neque iste maxime
-     voluptas voluptate, sint assumenda laboriosam? Excepturi reprehenderit perferendis incidunt quisquam.</p9></div></div>
-  </div>
+<div class="flex">
+<div class="container10">
+    <div>><img src="images\images/john.jpg" alt="john" class="john"></div>
+    <div><h13>John Doe</h13></div>
+        <br>
+    <div><h12>CEO and Co-owner</h14></div>
+        <hr>
+    <div><p8>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugit? Placeat saepe dignissimos eveniet laudantium aliquid atque unde
+           consectetur. Nostrum eum repellendus nisi hic facere reprehenderit quia illo ex ullam?</p8></div>
+    </div>
+    <div class="container10">
+    <div><img src="images\images/bob.jpg" alt="bob" class="bob"></div>
+    <div><h13>Bob Rite</h13></div>
+        <br>
+    <div><h14>CFO and Co-owner</h14></div>
+        <hr>
+    <div><p9>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam autem rem temporibus doloribus rerum est amet, eum, neque iste maxime
+           voluptas voluptate, sint assumenda laboriosam? Excepturi reprehenderit perferendis incidunt quisquam.</p9></div>
+        </div>
+        
 <h15>Contact Us</h15>
 <br>
 <h16>Send us a message</h16>
 <div class="form">
 <form action="action_page.php">
 <label for="name">Full Name</label>
+<br>
 <input type="text" name="name" id="name">
+<br>
 <label for="email">Email</label>
+<br>
 <input type="text" name="email" id="email">
+<br>
 <label for="Message">Message</label>
+<br>
 <input type="text" name="Message" id="Message">
 </div>
 <br>
@@ -154,8 +167,11 @@
         </tr>
     </table>
 </div>
+<div class="location">
 <h18>Location</h18>
+<br>
 <img src="images\images/map.png" alt="map" class="map">
+</div>
 <div class="footer">
 <footer>&#169; Copyright Three Star Media, 2020
     <br>
