@@ -2,42 +2,70 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
-</head>
-
 <body>
-    <img class="logo" src="images/logo/logo.png" alt="logo">
-    <h1> Want to be your own boss?</h1>
-    <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
-    <img class="bg-image" src="images/bg-image/scooter.svg" alt="scooter">
-</body>
+    <header>
+        <div class="header-area">
+            <img src="./images/logo/logo.png" alt="logo">
+        </div>
+    </header>
+    
 
-<form>
-    <h2>Apply Now</h2>
-    <p>Enter your info below to get started.</p>
-    <label for="fname">First name</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name</label><br>
-    <input type="text" id="lname" name="lname"><br>
-    <label for="email">Email address</label><br>
-    <input type="text" id="email" name="email"><br>
-    <label for="phone">Phone number</label><br>
-    <input type="text" id="phone" name="phone"><br>
-    <input type="checkbox" id="terms" name="terms" value="terms">
-    <label for="terms">I agree to dash terms</label><br>
-    <button type="button">DRIVE WITH US</button>
-    <p2>Already applied? <a href="https://www.pornhub.com/">Check your application status here</a></p2>
-  </form>
-  
-  <footer>
-      <h3>See how much you can earn with Dash</h3>
-      <p3>How many hours do you wanna drive this week?</p3>
-      <label for="hours">Hours</label>
-      <input type="text" id="hours" name="hours">
-      <label for="city">City</label>
-      <input type="text" id="city" name="city">
-      <img class="instagram" src="images/icons/instagram.svg" alt="instagram">
-      <img class="twitter" src="images/icons/twitter.svg" alt="twitter">
-      <img class="facebook" src="images/icons/facebook.svg" alt="facebook">
-      <img class="linkedin" src="images/icons/linkedin.svg" alt="linkedin">
-      <button type="button">Calculator</button>
-  </footer>
+
+<main>
+    <section class="landing-area" style="background-image:url(./assets/img/bg-image/scooter.svg);">
+        <div class="container">
+          <div class="row justify-content-between">
+              <div class="section-content">
+                  <h1>Want to be your own boss?</h1>
+                  <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
+                  <div class="form-box">
+                      <h3>Apply Now</h3>
+                      <p>Enter your info below to get started.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <form>
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+            <input type="text" placeholder="Email address">
+            <input type="text" placeholder="Phone number">
+
+            <div class="chk-bx-wrap">
+                <input type="checkbox" id="chk">
+            </div>
+            <label for="chk">
+                <span class="chk-bx"></span>
+                <p>I agree to dash terms</p>
+            </label>
+        </div>
+        <input type="submit" value="DRIVE WITH US">
+        <div class="form-box-last">
+            <p>Already applied? <a href="#">Check your application status here</a></p>
+        </div>
+        </form>
+</main>
+
+<footer>
+    <div class="footer-area">
+   <div class="fcontainer">
+       <h5>See how much you can earn with Dash</h5>
+       <p>How many hours do you wanna drive with us this week</p>
+   </div>     
+    </div>
+    <form action="">
+      <input type="text" placeholder="Hours">
+      <input type="text" placeholder="City">
+      <input type="text" placeholder="Calculate"> 
+    </form>
+    <div class="social-link">
+        <ul>
+            <li><a href="#"><img src="./images/icons/instagram.svg"></a></li>
+            <li><a href="#"><img src="./images/icons/twitter.svg"></a></li>
+            <li><a href="#"><img src="./images/icons/facebook.svg"></a></li>
+            <li><a href="#"><img src="./images/icons/linkedin.svg"></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
